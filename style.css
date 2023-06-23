@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+
+
+
+
+*{
+
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.btn {
+    padding: 35px 45px;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+}
+.boxs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    width: 1px;
+    margin-bottom: 70px;
+    margin-left: -600px;
+}
+
+
+.input-changer input{
+    width: 100px;
+}
+
+.btn-1{
+    background-color: red;
+}
+.btn-2{
+    background-color: blue;
+}
+.btn-3{
+    background-color: green;
+}
+.btn-4{
+    background-color: yellow;
+}
+.btn-5{
+    background-color: brown;
+}
+.btn-6{
+    background-color: white;
+    color: bisque;
+    border: 1px solid black;
+}
+.btn-7{
+    background-color: black;
+}
+.btn-8{
+    background-color: yellowgreen;
+}
+.btn-9{
+    background-color: skyblue;
+}
+.btn-10{
+    background-color: grey;
+}
+.btn-11{
+    background-color: gold;
+    
+}
+.btn-12{
+    background-color: aqua;
+}
+.bigbox{
+    border: 2px solid black;
+    padding: 70px 290px;
+    display: inline-block;
+    
+}
+.bigbox h1{
+    color: black;
+    text-align: center;
+}
+
+.input-changer input 
+{
+    width: 130px;
+    height: 20px;
+    background-color: white;
+    border: none;
+    box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.input-changer{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.changes{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.input-changer select {
+    width: 130px;
+    height: 20px;
+    background-color: white;
+    border: none;
+    box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.changes input{
+    border-radius: 5px;
+}
+
+
+.all-changer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
